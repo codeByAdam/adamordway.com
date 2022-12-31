@@ -60,10 +60,10 @@ const Profile = () => {
       </animated.div>
       <animated.p style={bioSpring}>I am a software developer with a passion for building web applications. I am skilled in JavaScript, HTML, and CSS, and I am always learning new technologies and frameworks to improve my skills.</animated.p>
       <animated.div style={socialLinksSpring}>
-        <a href="https://github.com/codebyadam" target="_blank">
+        <a href="https://github.com/codebyadam" target="_blank" rel="noreferrer">
           <img src="/github-logo.png" alt="GitHub" style={{ width: '32px', height: '32px', marginRight: '16px' }} />
         </a>
-        <a href="https://linkedin.com/in/adam-ordway" target="_blank">
+        <a href="https://linkedin.com/in/adam-ordway" target="_blank" rel="noreferrer">
           <img src="/linkedin-logo.png" alt="LinkedIn" style={{ width: '32px', height: '32px', marginLeft: '16px' }} />
         </a>
       </animated.div>
